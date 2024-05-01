@@ -10,7 +10,7 @@ def total_cost_shopping(price_list,quantity_list):
         if fruit in price_list:
             total_cost += quantity * price_list[fruit]
     print("Total cost =", total_cost)
-   
+    return total_cost
 
 
 def cost_of_fruits(fruit, quantity):

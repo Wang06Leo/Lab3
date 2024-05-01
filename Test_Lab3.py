@@ -75,5 +75,3 @@ def test_bubble_sort_invalid_input():
 
     # Assert that the result is equal to 2
     assert result == 2
-
-
